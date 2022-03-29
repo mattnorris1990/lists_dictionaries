@@ -1,5 +1,7 @@
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 
+stops.amend("Edinburgh Waverley")
+
 #1. Add "Edinburgh Waverley" to the end of the list
 #2. Add "Glasgow Queen St" to the start of the list
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
