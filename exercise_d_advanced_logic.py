@@ -20,6 +20,9 @@ print(numbers[9] - numbers[0])
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 
+# this line below is the correct answer to begin the solution - found in Google. My solution left intact for reference.
+# for x in range(len(numbers) - 1):
+
 for x in numbers:
     if (numbers[x] == numbers[x+1]) and (x == 2):
         print(True)
@@ -29,6 +32,7 @@ for x in numbers:
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
 #    
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
+
 
 
 # 5. HARD! Print the sum of the numbers. 
