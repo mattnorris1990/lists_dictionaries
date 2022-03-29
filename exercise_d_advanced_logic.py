@@ -20,6 +20,10 @@ print(numbers[9] - numbers[0])
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 
+for x in numbers:
+    if (numbers[x] == numbers[x+1]) and (x == 2):
+        print(True)
+        break
 
 # 4. Print the sum of the numbers, 
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
