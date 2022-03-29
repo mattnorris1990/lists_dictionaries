@@ -34,6 +34,24 @@ for x in numbers:
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
 
 
+# NOT FINISHED
+# sum_total = []
+# total = 0
+
+# for number in numbers:
+#     if (number != 6):
+#         sum_total.append(number)
+#         break
+
+# # print(sum_total)
+
+# for number in sum_total:
+#     total += number
+
+# print(total)
+
+
+
 
 # 5. HARD! Print the sum of the numbers. 
 #    Except the number 13 is very unlucky, so it does not count.
