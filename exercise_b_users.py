@@ -63,6 +63,9 @@ print(users["Jonathan"]["twitter"])
 print(users["Erik"]["home_town"])
 
 # 3. Get the list of Erik's lottery numbers
+
+print(users["Avril"]["lottery_numbers"])
+
 # 4. Get the species of Avril's pet Monty
 # 5. Get the smallest of Erik's lottery numbers
 # 6. Return an list of Avril's lottery numbers that are even
