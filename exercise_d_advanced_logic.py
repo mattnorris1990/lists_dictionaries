@@ -49,6 +49,7 @@ for x in range(len(numbers) - 1):
 
 # print(total)
 
+# Solution
 total = 0
 found_6 = False
 for number in numbers: 
