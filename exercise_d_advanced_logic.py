@@ -20,10 +20,9 @@ print(numbers[9] - numbers[0])
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 
-# this line below is the correct answer to begin the solution - found in Google. My solution left intact for reference.
-# for x in range(len(numbers) - 1):
+# this line below is the correct answer to begin the solution - suggested by others. My solution left intact for reference.
 
-for x in numbers:
+for x in range(len(numbers) - 1):
     if (numbers[x] == numbers[x+1]) and (x == 2):
         print(True)
         break
@@ -50,6 +49,18 @@ for x in numbers:
 
 # print(total)
 
+total = 0
+found_6 = False
+for number in numbers: 
+    if number == 6:
+        found_6 = True
+    elif found_6:
+        if number == 7:
+            found_6 = False
+    else:
+        total += number
+
+print(total)
 
 
 
