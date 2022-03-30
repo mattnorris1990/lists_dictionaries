@@ -27,6 +27,16 @@ for x in range(len(numbers) - 1):
         print(True)
         break
 
+#  SUGGESTED HOMEWORK SOLUTION
+# result = False
+# index = 0
+# for number in numbers:
+#     if (number == 2 and numbers[index-1] == 2):
+#         result = True
+#     index +=1
+# print(result)
+
+
 # 4. Print the sum of the numbers, 
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
 #    
@@ -49,19 +59,19 @@ for x in range(len(numbers) - 1):
 
 # print(total)
 
-# Solution
-total = 0
-found_6 = False
-for number in numbers: 
-    if number == 6:
-        found_6 = True
-    elif found_6:
-        if number == 7:
-            found_6 = False
-    else:
-        total += number
+# SUGGESTED HOMEWORK SOLUTION - called a flag swap algorhythm
+# total = 0
+# found_6 = False
+# for number in numbers: 
+#     if number == 6:
+#         found_6 = True
+#     elif found_6:
+#         if number == 7:
+#             found_6 = False
+#     else:
+#         total += number
 
-print(total)
+# print(total)
 
 
 
